@@ -1,0 +1,54 @@
+body {
+    font-family: ;
+}
+
+nav {
+    position: relative;
+    background-color: #333;
+    width: 100vw;
+    height: 10vh;
+}
+
+nav a {
+    float: left;
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.homeLink {
+    height: 100%;
+    width: auto;
+    padding: 1em 3em;
+}
+
+.homeLink a {
+    font-size: 28px;
+}
+
+.navCentered {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navCentered a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+.navRight {
+
+}
+
+.navRight a {
+
+}
+
+.navRight a:hover {
+    background-color: #ddd;
+    color: #000
+}
